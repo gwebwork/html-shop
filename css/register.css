@@ -1,0 +1,109 @@
+.w{
+    width: 1200px;
+    margin: 0 auto;
+}
+.header{
+    height: 82px;
+    border-bottom: 2px solid #b1191a;
+}
+.logo{
+    margin-top: 18px;
+    float: left;
+}
+.register_input{
+    height: 520px;
+    width: 100%;
+    border: 1px solid #dfdfdf;   
+    margin: 45px 0;
+}
+.register_new{
+    background-color: #ececec;
+    height: 40px;
+    line-height: 40px;
+    width: 100%;
+    border-bottom: 1px solid #dfdfdf;
+    font-size: 16px;
+    text-indent: 1em;
+    color:#333;
+}
+.register_new em{
+    font-size: 14px;
+    margin-right:20px;
+}
+.register_new em a{
+    color: #c81623;
+}
+.reg_from{
+    width: 600px;
+    height: 400px;
+    margin: 50px auto;
+    
+}
+
+.reg_from label{
+    width: 90px;
+    height: 35px;
+    display: inline-block;
+    text-align: right;
+    line-height: 35px;
+    font-size: 15px;
+    margin-right: 8px;
+  
+}
+.reg_from .reg_input{
+    width: 240px;
+    height: 35px;
+    line-height: 35px;
+    padding: 0 7px;
+    margin: 10px;
+ 
+}
+.err_ico{
+    width: 20px;
+    height: 20px;
+    background: url(../img/reg_err.png);
+    display: inline-block;
+    vertical-align:middle;
+    margin-top: -3px;
+}
+.reg_from span{
+    color: #df3033;
+}
+.safe{
+    padding-left: 204px;
+    color: #b2b2b2;
+}
+.safe em{
+    color: #fff;
+    padding: 0 10px;
+
+}
+.safe .ruo{
+    background-color: #de1111;
+}
+.safe .zhong{
+    background-color: #40b83f;
+}
+.safe .qiang{
+    background-color: #f79100;
+}
+.reg_check{
+    vertical-align: middle;
+}
+.reg_xy{
+    color: #1ba1e6;
+}
+.reg_xiyi{
+    padding-left: 130px;
+    margin: 30px 0;
+}
+.reg_submit input{
+    width: 200px;
+    height: 35px;
+    color: #fff;
+    background-color: #c81623;
+    line-height: 35px;
+    border: none;
+    cursor: pointer;
+    margin-left: 130px;
+}

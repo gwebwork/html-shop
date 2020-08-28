@@ -1,0 +1,277 @@
+.main{
+    width: 980px;
+    height: 455px;
+    margin-top: 10px;
+}
+.focus{
+    width: 720px;
+    height: 455px;
+    position: relative;
+}
+.newflash{
+    width: 247px;
+    height: 455px;
+}
+.arrow-fl,.arrow-fr{
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+    width: 24px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    font-family: 'icomoon';
+    background: rgba(0, 0, 0, .3);
+    font-size: 18px;
+}
+.arrow-fr{
+    right: 0;
+}
+.circle{
+    position: absolute;
+    bottom: 10px;
+    left: 50px;
+}
+.circle li{
+    width: 8px;
+    height: 8px;
+    float: left;
+    margin-left: 5px;
+    cursor: pointer;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+}
+.circle .current{
+    background-color: #fff;
+}
+.newleft{
+    border: 1px solid #e4e4e4;
+    height: 372px;
+}
+.news{
+    height: 168px;
+    border-bottom: 1px solid #e4e4e4;
+}
+.liftserver{
+    height: 204px;
+    overflow: hidden;
+}
+.bargain{
+    margin-top: 5px;
+}
+.news-hd{
+    height: 32px;
+    border-bottom: 1px dotted #e4e4e4;
+    line-height: 32px;
+    padding:0 15px;
+    font-size: 15px;
+    color: #333;
+}
+.news-hd a{
+    font-size: 12px;
+    font-family: 'icomoon';
+}
+.news-db{
+    padding:12px 0 0 13px;
+    line-height: 22px;
+}
+.liftserver ul{
+    width: 252px;
+    overflow: hidden;
+}
+.liftserver ul li{
+    border-right: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    width: 62px;
+    height: 70px;
+    float: left;
+    text-align: center;
+}
+.liftserver ul li a{
+    display: block;
+    overflow: hidden;
+    height: 100%;
+}
+.server_ico{
+    width: 24px;
+    height: 24px;
+    background: #aaa;
+    display: block;
+    margin: 10px auto;
+    background: url(../img/icons.png);
+}
+.ico_a{
+    background-position:-19px -16px;
+}
+.ico_b{
+    background-position:-80px -17px;
+}
+.ico_c{
+    background-position:-206px -17px;
+}
+.ico_d{
+    background-position:-18px -87px;
+}
+.ico_e{
+    background-position:-80px -88px;
+}
+.ico_f{
+    background-position:-143px -88px;
+}
+.ico_g{
+    background-position:-209px -88px;
+}
+.ico_h{
+    background-position:-18px -160px;
+}
+.ico_i{
+    background-position:-79px -159px;
+}
+.ico_j{
+    background-position:-143px -159px;
+}
+.ico_k{
+    background-position:-209px -159px;
+}
+.ico_l{
+    background-position:-79px -159px;
+}
+.recommend{
+    height:163px;
+    background-color: #ebebeb;
+    margin-top: 10px;
+}
+.clock{
+    width: 206px;
+    background-color: #5c5251;
+    height: 133px;
+    text-align: center;
+    padding-top:30px;
+    color: #fff;
+}
+.clock h3{
+    line-height: 30px;
+}
+.rencom ul li{
+    width: 246px;
+    height: 143px;
+    float: left;
+    border-left:1px solid #ddd;
+}
+.rencom ul li:first-child{
+    border-left:none;
+}
+.box-hd{
+    border-bottom:2px solid #c81623;
+    margin-top: 20px;
+    height: 25px;
+
+}
+.box-hd h4{
+    color: #c81623;
+    font-size: 16px;
+} 
+.box-nav li{
+    float: left;
+    overflow: hidden;
+} 
+.box-nav li a{
+    margin: 0 15px;
+}
+.box-bd{
+    height: 360px;
+}
+.box-bd img{
+    transform: all .3s;
+}
+.box-bd img:hover{
+    margin-left: 5px;
+}
+.box-bd>ul>li{
+    float: left;
+    height: 360px;
+}
+
+.w1{
+    width: 210px;
+}
+.w2{
+    width: 329px;
+}
+.w3{
+    width: 220px;
+}
+.w4{
+    width: 221px;
+}
+.w5{
+    width: 218px;
+}
+.tab-con-item{
+    height: 180px;
+    border-bottom: 1px solid #ededed;
+}
+.w1>ul{
+    margin-bottom:25px;
+    overflow: hidden;
+}
+.w1>ul>li{
+    float: left;
+    width: 86px;
+    height: 32px;
+    border-bottom:1px solid #ededed;
+    line-height: 32px;
+    margin-left: 12px;
+    text-align: center;
+}
+.fixedtool{
+    position: fixed;
+    top: 200px;
+    left: 50%;
+    margin-left: -676px;
+    width: 65px;
+    display: none;
+}
+.fixedtool ul li{
+    height: 32px;
+    text-align:center;
+    line-height: 32px;
+    border-bottom:1px solid #ededed;
+    cursor: pointer;
+}
+.fixedtool ul li:hover{
+    background-color: #c81623;
+}
+.fixedtool ul li a:hover{
+    color: #fff;
+}
+.nav-item ul{
+    border: 1px solid #ccc;
+    overflow: hidden;
+    width: 60px;
+    position: absolute;
+    z-index: 300;
+    background: #fff;
+    display: none;
+    border-top: none;
+}
+.nav-item{
+    position: relative;
+}
+.nav-item ul li{
+    height: 30px;
+    width: 60px;
+    line-height: 30px;
+    text-align: left;
+    border-top: 1px solid #ccc;
+    text-align: center;
+    cursor: pointer;
+}
+.fixedtool .current{
+    background-color: #c81623;
+    color: #fff;
+}
+.fixedtool .current a{
+    color: #fff;
+}
